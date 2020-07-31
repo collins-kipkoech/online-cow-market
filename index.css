@@ -1,0 +1,97 @@
+body{
+  background-color: lightskyblue;
+}
+header{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px;
+    background-color: skyblue;
+
+}
+.navigation {
+    border-style: solid;
+    padding-inline-start: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    list-style-type: none;
+    background-color: lightgray;
+    
+    
+}
+.navigation a {
+    font-size: 20px;
+    
+}
+.navigation a:nth-of-type(4){
+    float: right;
+    padding-right: 10px;
+}
+.navigation a:nth-of-type(5){
+    float: right;
+    padding-right: 10px;
+}
+
+.navigation a:link{
+    color: red;
+    
+
+}
+.navigation a:hover{
+    color: red;
+}
+
+.content {
+    float: left;
+    padding: 10px;
+  }
+  
+  
+  .content.image {
+    width: 25%;
+  }
+  
+  
+  .content.description {
+    width: 40%;
+    
+    
+    height: 380px;
+    list-style-type: none;
+    margin-left: 80px;
+    
+  }
+  
+  
+  .market:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .content.image, .content.description {
+      width: 100%;
+    }
+  }
+  
+  
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  .login{
+      float: left;
+      margin: 20px;
+      padding: 10px;
+  }
+ table{
+   border: 2px solid green;
+   font-size: 30px;
+ }

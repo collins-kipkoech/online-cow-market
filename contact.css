@@ -1,0 +1,31 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+.content {
+  float: left;
+  height: 500px;
+  border-style: solid; 
+  font-size: 20px;
+  border-radius: 20px;
+  width: 50%;
+  color: blue;
+  padding: 5px;
+  background-color: floralwhite;
+ 
+}
+
+
+.description:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer{
+    border-style: solid;
+    color: blue;
+    text-align: center;
+    border-radius: 10px;
+}
