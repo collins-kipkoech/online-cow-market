@@ -1,0 +1,56 @@
+
+.navigation {
+    border-style: solid;
+    padding-inline-start: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    list-style-type: none;
+    background-color: lightgray;
+    
+    
+}
+.navigation a {
+    font-size: 20px;
+    
+}
+.navigation a:nth-of-type(4){
+    float: right;
+    padding-right: 10px;
+}
+.navigation a:nth-of-type(5){
+    float: right;
+    padding-right: 10px;
+}
+
+.navigation a:link{
+    color: red;
+    
+
+}
+.navigation a:hover{
+    color: red;
+}
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+      height: 600px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .footer {
+        background-color: lightgrey;
+        padding: 10px;
+        text-align: center;
+      }
+    
