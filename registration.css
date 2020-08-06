@@ -15,6 +15,7 @@ body{
     padding: 20px 200px 40px;
     font-size: 20px;
     line-height: 1.6;
+    width: 200px;
     
 }
 body{
@@ -25,6 +26,6 @@ nav{
     width: 100%;
     text-align: center;
     padding: 5px;
-    background-color: rgb(85, 97, 85);
+    background-color: burlywood;
     color: blue;
 }

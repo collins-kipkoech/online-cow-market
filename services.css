@@ -93,3 +93,35 @@ footer{
   background-color: gray;
   color: darkblue;
 }
+
+.navigation {
+    border-style: solid;
+    padding-inline-start: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    list-style-type: none;
+    background-color: lightgray;
+    
+    
+}
+.navigation a {
+    font-size: 20px;
+    
+}
+.navigation a:nth-of-type(4){
+    float: right;
+    padding-right: 10px;
+}
+.navigation a:nth-of-type(5){
+    float: right;
+    padding-right: 10px;
+}
+
+.navigation a:link{
+    color: red;
+    
+
+}
+.navigation a:hover{
+    color: red;
+}
