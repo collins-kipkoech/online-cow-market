@@ -1,4 +1,10 @@
+body{
+    background-image: url("cow_background.png");
+    background-repeat:repeat;
+    width: 100%;
+}
 .form{
+    
     border-style: solid;
     background-color: darkgray;
     margin-top: 20px;
@@ -8,8 +14,17 @@
     height: 500px;
     padding: 20px 200px 40px;
     font-size: 20px;
+    line-height: 1.6;
     
 }
 body{
     background-color: darkkhaki;
+}
+nav{
+    border-style: groove;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(85, 97, 85);
+    color: blue;
 }

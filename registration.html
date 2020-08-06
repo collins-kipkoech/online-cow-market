@@ -10,7 +10,12 @@
     </script>
 </head>
 <body>
-    <form class="form" name="clientForm" action="" method="POST">
+    <nav>
+        <a href="login.html">LOGIN</a>
+    </nav>
+    </nav>
+    <form class="form" name="clientForm" action="https://formspree.io/mgendpvk" method="POST">
+        <label>Create your account</label><br>
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last name:</label><br>
@@ -25,7 +30,10 @@
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit"><br>
+        
+        <label>Already sign up?</label>
+        <button type="submit"><a href="login.html">login</a></button>
         
     </form>
     
